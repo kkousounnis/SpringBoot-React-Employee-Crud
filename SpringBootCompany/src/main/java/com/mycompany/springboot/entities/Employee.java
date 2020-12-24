@@ -18,13 +18,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @Table(name = "tb_emp", catalog = "company", schema = "")
 @XmlRootElement
-@NamedQueries({
-    @NamedQuery(name = "TbEmp.findAll", query = "SELECT t FROM TbEmp t"),
-    @NamedQuery(name = "TbEmp.findById", query = "SELECT t FROM TbEmp t WHERE t.id = :id"),
-    @NamedQuery(name = "TbEmp.findByName", query = "SELECT t FROM TbEmp t WHERE t.name = :name"),
-    @NamedQuery(name = "TbEmp.findByGender", query = "SELECT t FROM TbEmp t WHERE t.gender = :gender"),
-    @NamedQuery(name = "TbEmp.findByDepartment", query = "SELECT t FROM TbEmp t WHERE t.department = :department"),
-    @NamedQuery(name = "TbEmp.findByDob", query = "SELECT t FROM TbEmp t WHERE t.dob = :dob")})
+//@NamedQueries({
+//    @NamedQuery(name = "TbEmp.findAll", query = "SELECT t FROM TbEmp t"),
+//    @NamedQuery(name = "TbEmp.findById", query = "SELECT t FROM TbEmp t WHERE t.id = :id"),
+//    @NamedQuery(name = "TbEmp.findByName", query = "SELECT t FROM TbEmp t WHERE t.name = :name"),
+//    @NamedQuery(name = "TbEmp.findByGender", query = "SELECT t FROM TbEmp t WHERE t.gender = :gender"),
+//    @NamedQuery(name = "TbEmp.findByDepartment", query = "SELECT t FROM TbEmp t WHERE t.department = :department"),
+//    @NamedQuery(name = "TbEmp.findByDob", query = "SELECT t FROM TbEmp t WHERE t.dob = :dob")})
 public class Employee implements Serializable {
 
     private static final long serialVersionUID = 1L;
