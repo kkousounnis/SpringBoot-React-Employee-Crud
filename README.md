@@ -1,2 +1,2 @@
 # SpringBoot-React-Employee-Crud
- React Company application using Spring Boot Mysql Jpa/Hibernate 
+ React Rest Api Company application using Spring Boot Mysql Jpa/Hibernate 
